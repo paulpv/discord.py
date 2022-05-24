@@ -50,12 +50,14 @@ from . import (
     abc as abc,
     ui as ui,
     app_commands as app_commands,
+    rtp as rtp
 )
 from .enums import *
 from .embeds import *
 from .mentions import *
 from .shard import *
 from .player import *
+from .reader import *
 from .webhook import *
 from .voice_client import *
 from .audit_logs import *
